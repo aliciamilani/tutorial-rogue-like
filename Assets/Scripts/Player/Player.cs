@@ -8,6 +8,6 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     protected virtual void Awake()
     {
-        m_Rb = GetComponent<Rigidbody2D>();
+        m_Rb = GetComponent<Rigidbody2D>(); 
     }
 }
